@@ -1,0 +1,59 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:ram",
+			"materials": {
+				"default": "blaze_body"
+			},
+			"textures": {
+				"default": "textures/entity/ram"
+			},
+			"geometry": {
+				"default": "geometry.ram"
+			},
+			"render_controllers": [
+				"controller.render.iron_golem"
+			],
+			"spawn_egg": {
+				"texture": "ram"
+			},
+			"animations": {
+				"move": "animation.ram.move",
+				"ride": "animation.ram.right_front_door_close",
+				"setup": "animation.ram.spawn",
+				"turn": "animation.ram.turn",
+				"saddle": "animation.ram.saddle",
+				"small": "animation.ram.small",
+				"portal": "animation.ram.portal_remove",
+				"chest": "animation.ram.chest",
+				"fly": "animation.ram.fly",
+				"general": "controller.animation.ram.general"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"saddle": "query.is_saddled"
+					},
+					{
+						"chest": "query.is_chested"
+					},
+					{
+						"fly": "query.can_fly "
+					},
+					"hit",
+					"death",
+					"setup",
+					"general"
+				]
+			}
+		}
+	}
+}

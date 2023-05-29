@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Rick and Morty - Space cruiser : RP",
+        "description": "Made by iMasterProX",
+        "uuid": "cfd9ffce-55a8-4b4b-8f9e-deca21a78957",
+        "version": [1, 1, 1]
+    },
+    "modules": [
+        {
+            "description": "Rick and Morty - Space cruiser : RP",
+            "type": "resources",
+            "uuid": "c3c43945-4011-4e7e-8649-e9b841b395d8",
+            "version": [1, 1, 1]
+        }
+    ]
+}

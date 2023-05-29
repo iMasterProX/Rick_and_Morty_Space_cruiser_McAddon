@@ -1,0 +1,8 @@
+##bridge-file-version: #23
+
+accessibility.disableTTS=Text To Speech disabled
+accessibility.enableTTS=Text To Speech enabled
+
+item.spawn_egg.entity.car:ram.name=Rick and Morty - Space cruiser
+action.hint.exit.car:ram=§oTo be infinity and beyond!
+entity.car:ram.name=Rick and Morty - Space cruiser
